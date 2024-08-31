@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+/*.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}*/
+
+.dc{
+    display: flex;
+    margin: 10px;
+}
+
+h1 {
+    color: red;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.p1{
+    color: yellow;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+#new-task {
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#add-task-btn {
+    padding: 10px 30px;
+    width: 50%;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+#task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#task-list li.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
